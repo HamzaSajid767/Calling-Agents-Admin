@@ -1,0 +1,27 @@
+import { useAppStore } from "@/store/useAppStore";
+
+export const useDashboardBox = () => useAppStore((s) => s.dashboard);
+export const useAgentsBox = () => useAppStore((s) => s.agents);
+export const useAgentDetailBox = () => useAppStore((s) => s.agentDetail);
+export const useSessionsBox = () => useAppStore((s) => s.sessions);
+export const useSessionDetailBox = () => useAppStore((s) => s.sessionDetail);
+export const useConversationsBox = () => useAppStore((s) => s.conversations);
+export const useConversationDetailBox = () => useAppStore((s) => s.conversationDetail);
+export const useToolsBox = () => useAppStore((s) => s.tools);
+export const useProvidersBox = () => useAppStore((s) => s.providers);
+export const useVoiceBox = () => useAppStore((s) => s.voice);
+export const useIvrBox = () => useAppStore((s) => s.ivr);
+export const useAmdLogsBox = () => useAppStore((s) => s.amdLogs);
+export const useAmdSettingsBox = () => useAppStore((s) => s.amdSettings);
+export const useRoomsBox = () => useAppStore((s) => s.rooms);
+export const useParticipantsBox = () => useAppStore((s) => s.participants);
+export const useSelectedRoomId = () => useAppStore((s) => s.selectedRoomId);
+export const useRecordingsBox = () => useAppStore((s) => s.recordings);
+export const useWorkersBox = () => useAppStore((s) => s.workers);
+export const useJobsBox = () => useAppStore((s) => s.jobs);
+export const useOtelBox = () => useAppStore((s) => s.otelLogs);
+export const useTracesBox = () => useAppStore((s) => s.traces);
+export const usePromBox = () => useAppStore((s) => s.prom);
+export const useUsageBox = () => useAppStore((s) => s.usage);
+export const useSystemLogsBox = () => useAppStore((s) => s.systemLogs);
+export const useSettingsBox = () => useAppStore((s) => s.settings);
