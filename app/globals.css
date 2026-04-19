@@ -1,16 +1,14 @@
 @import "tailwindcss";
+@config "../tailwind.config.ts";
 
-@theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    "Apple Color Emoji", "Segoe UI Emoji";
+:root {
+  color-scheme: dark;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
   --radius-lg: 12px;
   --radius-md: 10px;
   --radius-sm: 8px;
   --shadow-soft: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 12px 40px rgba(0, 0, 0, 0.45);
-}
-
-:root {
-  color-scheme: dark;
   --bg: #0a0a0b;
   --panel: #0f0f12;
   --panel-2: #13131a;
